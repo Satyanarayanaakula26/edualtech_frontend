@@ -1,0 +1,27 @@
+.team-mems{
+    margin:5%;
+}
+
+.team-mems h1{
+    margin:2%;
+}
+
+.team-cards{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.teammate{
+    border-radius: 12px;
+    width:400px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.2);
+    background-color: rgb(131, 248, 131,0.2);
+}
+.teammate-info{
+   margin:5%;
+}
+.teammate-img{
+    border-radius: 50%;
+    background-color: green;
+    margin:5%;
+}

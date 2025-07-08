@@ -1,0 +1,21 @@
+.cart-page{
+ padding: 5%;
+}
+.cart-object{
+    height:200px;
+    margin:5% 20%;
+    display: flex;
+    box-shadow: 0 0 14px rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+.cart-object-left{
+    align-content: center;
+    margin:auto 5%;
+}
+.cart-object-right{
+    margin:auto 5%;
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+}

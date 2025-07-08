@@ -1,0 +1,50 @@
+.top-course{
+    background: linear-gradient(135deg, #F9FAFB 0%, #E8F5E9 100%);
+    padding:5%;
+}
+.card-topcourses{
+margin:2% 0%;
+display: flex;
+flex-direction: column;
+gap:20px;
+ width:25%;
+ border-radius: 12px;
+ box-shadow: 0 0 14px rgba(0,0,0,0.1);
+}
+.card-img{
+    height:10rem;
+}
+.card-content{
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.card-topcourses a{
+    text-decoration: none;
+    padding:0 30%;
+    color:rgb(16, 173, 16);
+}
+.card-topcourses a:hover{
+    font-weight:bold
+}
+.card-content h3{
+    color:green;
+    font-weight: bold;
+}
+
+.scroll-container {
+  background-color: rgb(73, 248, 61,0.3);
+  border-radius: 12px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}

@@ -1,0 +1,78 @@
+.profile-dis h1{
+    margin:2%;
+}
+.basic-profile{
+    margin: 3% 5%;
+    display: flex;
+    gap:100px;
+}
+.profile-intro{
+    margin-left:10%;
+}
+.profile-list{
+    margin: 3% 5%;
+}
+.profile-list ul{
+    list-style: None;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+.profile-list ul li .listed{
+    display:block;
+    cursor: pointer;
+    background-color: rgb(231, 239, 231);
+    width:75%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-weight: 200;
+    border:2px solid lightgreen;
+}
+.profile-list ul li > div:first-child:hover{
+    transform: scale(1.02);
+    background-color: rgb(177, 247, 177,0.6);
+    box-shadow:0 2px 2px rgb(0,0,11,0.2)
+}
+.profile-list ul li .drop-content-1,.profile-list ul li .drop-content-2, .profile-list ul li .drop-content-3,.profile-list ul li .drop-content-4,.profile-list ul li .drop-content-5{
+  margin-top: 5px;
+  background-color: #fffefe;
+  width:75%;
+  padding: 10px;
+  animation: fadeIn 0.2s ease-in-out;
+  display: block;
+  height:auto;
+  box-shadow:0 2px 2px rgb(0,0,11,0.2);
+  overflow: hidden;
+}
+.profile-list #logout:hover{
+    transform: scale(1.02);
+    background-color:orangered;
+}
+.profile-list #logout:active{
+    transform: scale(0.98);
+}
+.profile-list li .drop-content-3 span{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin:0% 20%;
+}
+
+.profile-list li .drop-content-3 button:hover{
+    background-color: rgb(54, 230, 57);
+    transform: scale(1.02);
+}
+.profile-list li .drop-content-3 button:active{
+    transform: scale(0.98);
+}
+.profile-list li .drop-content-2 .learning{
+    display: flex;
+    justify-content: space-between;
+    margin:2% 10%;
+}
+.profile-list li .drop-content-2 .learning span{
+    display: block;
+    border-radius: 15px; 
+    box-shadow: 0 2px 2px rgb(0,0,11,0.2);
+}
