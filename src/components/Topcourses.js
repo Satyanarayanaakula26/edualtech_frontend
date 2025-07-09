@@ -6,52 +6,52 @@ export function TopCourses(){
         {
             'title':'Data Structures and algorithms',
             'content':'some content',
-            'image':'/assets/dsa.jpg'
+            'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg'
         },
         {
             'title':'Data Structures and algorithms',
             'content':'some content',
-            'image':'/assets.dsa.jpg'
+            'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg'
         },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     },
     {
        'title':'Data Structures and algorithms',
         'content':'some content',
-        'image':'/assets.dsa.jpg' 
+        'image':'https://satyanarayanaakula26.github.io/edualtech_frontend/assets.dsa.jpg' 
     }]
     return(
         <section className="top-course">

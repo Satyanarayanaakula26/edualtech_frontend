@@ -4,7 +4,7 @@ import React from 'react'
         <section className='about-section'>
            <div className='about-section-1'>
                 <div className='about-1-left'>
-                        <img src="../assets/team4.jpg" alt="our mission info" />
+                        <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/team4.jpg" alt="our mission info" />
                 </div>
                 <div className='about-1-right'>
                     <h1>Our Mission</h1>
@@ -23,9 +23,9 @@ With a vision to change that, we worked day and night on our idea, and our dedic
                 </p>
                 </div>
                 <div className='about-2-right'>
-                    <img className='right-img image1' src='./assets/team1.jpg' alt='ourstory-1'/>
-                    <img className='right-img image2' src='./assets/team2.jpg' alt='ourstory-2'/>
-                    <img className='right-img image3' src='./assets/team3.jpg' alt='ourstory-3'/>
+                    <img className='right-img image1' src='https://satyanarayanaakula26.github.io/edualtech_frontend/assets/team1.jpg' alt='ourstory-1'/>
+                    <img className='right-img image2' src='https://satyanarayanaakula26.github.io/edualtech_frontend/assets/team2.jpg' alt='ourstory-2'/>
+                    <img className='right-img image3' src='https://satyanarayanaakula26.github.io/edualtech_frontend/assets/team3.jpg' alt='ourstory-3'/>
                 </div>
            </div>
         </section>

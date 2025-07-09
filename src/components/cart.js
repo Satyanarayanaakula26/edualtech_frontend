@@ -3,13 +3,13 @@ export function Cart(){
     const [cart_items,setcart_items]=useState(
         [
         {
-            image:'./assets/dsa.jpg',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg',
             title:'Data Structures and Algorithms',
             faculty:'names',
             product_id:1,
         },  
         {
-            image:'./assets/dsa.jpg',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg',
             title:'Data Structures and Algorithms',
             faculty:'names',
             product_id:1,

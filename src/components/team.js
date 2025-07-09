@@ -5,25 +5,25 @@ export function Team(){
         {
             name:'Akula Satyanarayana',
             role:'Technical Department',
-            image:'./assets/coursespic.png',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png',
             info:'At EdualTech, Akula Satyanarayana plays a crucial role in shaping our technology strategy and delivering innovative solutions that empower our clients. With extensive expertise in [add key skills, e.g., full-stack development, cloud infrastructure, or AI-driven platforms],'
         },
         {
             name:'Akula Satyanarayana',
             role:'Technical Department',
-            image:'./assets/coursespic.png',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png',
             info:'At EdualTech, Akula Satyanarayana plays a crucial role in shaping our technology strategy and delivering innovative solutions that empower our clients. With extensive expertise in [add key skills, e.g., full-stack development, cloud infrastructure, or AI-driven platforms],'
         },
         {
             name:'Akula Satyanarayana',
             role:'Technical Department',
-            image:'./assets/coursespic.png',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png',
             info:'At EdualTech, Akula Satyanarayana plays a crucial role in shaping our technology strategy and delivering innovative solutions that empower our clients. With extensive expertise in [add key skills, e.g., full-stack development, cloud infrastructure, or AI-driven platforms],'
         },
         {
             name:'Akula Satyanarayana',
             role:'Technical Department',
-            image:'./assets/coursespic.png',
+            image:'https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png',
             info:'At EdualTech, Akula Satyanarayana plays a crucial role in shaping our technology strategy and delivering innovative solutions that empower our clients. With extensive expertise in [add key skills, e.g., full-stack development, cloud infrastructure, or AI-driven platforms],'
         }
     ]

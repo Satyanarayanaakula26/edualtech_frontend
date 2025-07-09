@@ -19,7 +19,7 @@ export default function Home(props){
       <div class="highlight">
         <ul>
           <li>
-            <img src="assets/learnerpic.png" height="50px" width="50px"/>
+            <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/learnerpic.png" height="50px" width="50px"/>
             <div class="highlight-matter">
             <h5>100+</h5>
             <h6>Learners</h6>
@@ -27,7 +27,7 @@ export default function Home(props){
             </div>
           </li>
           <li>
-            <img src="assets/coursespic.png" height="50px" width="50px"/>
+            <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png" height="50px" width="50px"/>
             <div class="highlight-matter">
             <h5>Versatile </h5>
             <h6>Courses</h6>
@@ -35,7 +35,7 @@ export default function Home(props){
             </div>
           </li>
           <li>
-            <img src="assets/educatorpic.png" height="50px" width="50px"/>
+            <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/educatorpic.png" height="50px" width="50px"/>
            <div class="highlight-matter">
             <h5>Skilled </h5>
             <h6>Educators</h6>
