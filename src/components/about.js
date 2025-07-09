@@ -4,7 +4,7 @@ import React from 'react'
         <section className='about-section'>
            <div className='about-section-1'>
                 <div className='about-1-left'>
-                        <img src="./assets/team4.jpg" alt="our mission info" />
+                        <img src="../assets/team4.jpg" alt="our mission info" />
                 </div>
                 <div className='about-1-right'>
                     <h1>Our Mission</h1>

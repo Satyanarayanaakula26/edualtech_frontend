@@ -1,7 +1,7 @@
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import{
-  BrowserRouter as Router ,Routes,Route,Link
+  HashRouter as Router ,Routes,Route,Link
 } from 'react-router-dom'
 import './App.css';
 import './components/topcourses.css'
