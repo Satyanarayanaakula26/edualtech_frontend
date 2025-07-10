@@ -17,7 +17,7 @@ export default function Signup(){
 
       <button type="submit" className="btn btn-success">Sign up</button>
       
-      <a href="#">Already have an account? Sign in</a>
+      <a href="/signup">Already have an account? Sign in</a>
 
   </form>
 </div>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
- import {Link} from 'react-router'
+ import {Link} from 'react-router-dom'
 
 export default function Navbar(){
     const [show, setShow] = useState(false);
@@ -32,16 +32,16 @@ export default function Navbar(){
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item as={Link} to="#">
+        <Dropdown.Item as={Link} to="/home">
           Students
         </Dropdown.Item>
-        <Dropdown.Item as={Link} to="#">
+        <Dropdown.Item as={Link} to="/home">
           Educators
         </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
 </li>
-      <li><Link to="#">Contact</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
     </ul>
     <div className='nav-right'>
     <i className='bi bi-cart-fill'></i>

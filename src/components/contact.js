@@ -12,9 +12,9 @@ export function Contact(){
                     <textarea className='message' placeholder='Enter your message'rows='5' cols='50' ></textarea><br/><br/>
                     <button className='btn btn-success'>Send Us</button>
                     <div className='contact-icons'>
-                        <a href='#'><i className='bi bi-linkedin fs-2'></i></a>
-                        <a href='#'><i className='bi bi-whatsapp fs-2'></i></a>
-                        <a href='#'><i className='bi bi-instagram fs-2'></i></a>
+                        <a href='/contact'><i className='bi bi-linkedin fs-2'></i></a>
+                        <a href='/contact'><i className='bi bi-whatsapp fs-2'></i></a>
+                        <a href='/contact'><i className='bi bi-instagram fs-2'></i></a>
                     </div>
                 </div>
             </div>
