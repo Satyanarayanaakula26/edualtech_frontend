@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { useLocation } from 'react-router';
+import { useLocation } from 'react-router-dom';
 import CourseItem from './courseItem';
 import Edcourses from './Edcourses';
 
@@ -28,19 +28,19 @@ export default function CourseDisplay(props){
         <div className="courseinfo-extra">
         <div className="syllabus-intro">
             <h1>What You'll Learn:</h1>
-            <ul>
-                { syllabus.split('\n').map((line,index)=>(
-                    <li key={index}>{line}</li>
-                ))}
-            </ul>
+           <ul>
+  { (syllabus || '').split('\n').map((line, index) => (
+    <li key={index}>{line}</li>
+  ))}
+</ul>
         </div>
         <div className="course-use">
          <h1>Career Impact:</h1>
          <ul>
-            { use.split('\n').map((line,index)=>(
-                    <li key={index}>{line}</li>
-                ))}
-         </ul>
+  { (use || '').split('\n').map((line, index) => (
+    <li key={index}>{line}</li>
+  ))}
+</ul>
         </div>
         </div>
         </>

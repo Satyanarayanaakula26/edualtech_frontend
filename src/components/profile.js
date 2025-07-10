@@ -77,7 +77,7 @@ export default function Profile(props){
                             return(
                                <div className="ongoing-course">
                                 <ul>
-                                    <li><a>{item.title}</a></li>
+                                    <li><a href='/home'>{item.title}</a></li>
                                 </ul>
                                </div>
                             )
@@ -90,7 +90,7 @@ export default function Profile(props){
                             return(
                                <div className="ongoing-course">
                                 <ul>
-                                    <li><a>{item.title}</a></li>
+                                    <li><a href='/home'>{item.title}</a></li>
                                 </ul>
                                </div>
                             )
