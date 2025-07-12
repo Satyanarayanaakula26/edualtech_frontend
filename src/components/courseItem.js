@@ -5,14 +5,14 @@ import { useNavigate } from 'react-router-dom';
 export default function CourseItem(props){
   const navigate=useNavigate();
   console.log(props)
-  const coursedata={
-    title:props.title,
-    image:props.image,
-    description:props.description,
-    syllabus:props.syllabus,
-    para:props.para,
-    use:props.use
-  }
+  const coursedata = {
+  title: props.title || '',
+  image: props.image || '',
+  description: props.description || '',
+  syllabus: props.syllabus || '',
+  para: props.para || '',
+  use: props.use || '',
+};
     return(
       <div className="course-item">
         <img src={props.image} alt="coursename"/>
