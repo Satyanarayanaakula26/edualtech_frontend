@@ -3,7 +3,11 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import{
   HashRouter as Router ,Routes,Route,Link
 } from 'react-router-dom'
-import './App.css';
+import './components/navbar.css';
+import './components/home.css';
+import './components/services.css';
+import './components/courses.css';
+import './components/signin.css';
 import './components/topcourses.css'
 import './components/profile.css';
 import './components/coursedis.css';
@@ -11,6 +15,7 @@ import './components/team.css';
 import './components/contact.css';
 import './components/cart.css';
 import './components/about.css';
+import './App.css';
 import Home from './components/home';
 import Signin from './components/signin';
 import Signup from './components/signup';

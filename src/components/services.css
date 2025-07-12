@@ -1,0 +1,46 @@
+
+ .services{
+
+  padding:5%;
+ }
+ .services-heading{
+  padding: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .services-tag{
+  margin:2%;
+  text-align: center;
+  font-style: italic;
+  }
+   .services-list{
+  display:flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+ }
+ .services-list li{
+   width:25%;
+   padding:1rem;
+   box-sizing: border-box;
+   display: flex;
+   }
+ .card-service{
+  flex:1;
+  box-shadow: 0 4px 12px rgba(17, 17, 17, 0.1);
+  border-radius: 12px;
+  background-color:rgb(46, 248, 46,0.1)
+ }
+ .card-header-service{
+  background-color:rgb(12, 234, 12,0.3)
+ }
+ .card-service:hover{
+  animation: card 0.5s ease-in-out forwards ;
+ }
+ @keyframes card {
+  from{
+    transform: scale(1.05);
+  }
+  to{
+    transform: scale(1.1);
+  }
+ }

@@ -1,0 +1,53 @@
+
+ /* sign in and signup */
+.sign_in{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  width:50%;
+  margin:5% 25%;
+  border:2px solid rgba(189, 252, 189, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 14px rgba(0,17,17,0.3);
+}
+.sign_in h1{
+  margin:2% auto;
+  text-align: center;
+  color:green
+}
+.signin_info{
+  display: flex;
+  justify-content: space-around;
+}
+.sign_in_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:40px;
+}
+.sign_in_form input{
+  width:300px;
+  height:35px;
+  border-radius: 5px;
+  border:2px solid rgb(179, 178, 178);
+}
+.sign_in_form input:hover{
+  /* box-shadow: 0 0 5px rgb(98, 233, 98); */
+  border:2px solid greenyellow;
+  transform: scale(1.01);
+}
+.sign_in_form button{
+  width:100px;
+}
+.btn:hover{
+  background-color: rgb(54, 230, 57);
+  transform:scale(1.02);
+}
+.forg_pass{
+  text-align: center;
+}
+/* .input-info{
+  display: flex;
+  gap:10px;
+  align-items: center;
+} */
