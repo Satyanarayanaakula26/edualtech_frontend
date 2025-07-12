@@ -30,7 +30,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
-   <Router>
+   <>
     <Navbar/>
     {/* <Home/>
     <Services/>
@@ -52,7 +52,7 @@ function App() {
     <About/>
    <Team/>
    <Contact/>
-   </Router>
+   </>
   );
 }
 
