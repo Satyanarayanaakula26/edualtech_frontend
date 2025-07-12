@@ -30,8 +30,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
-   <>
-   <Router basename={process.env.PUBLIC_URL}>
+   <Router>
     <Navbar/>
     {/* <Home/>
     <Services/>
@@ -54,7 +53,6 @@ function App() {
    <Team/>
    <Contact/>
    </Router>
-   </>
   );
 }
 
