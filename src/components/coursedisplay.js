@@ -12,7 +12,7 @@ export default function CourseDisplay(props){
     console.log(coursedata);
     const{ title,image,description,syllabus,para,use}=coursedata;
     return(
-        <>
+      <section className='course-display-card'>
         <div className="course-display">
             <div className="course-info">
                 <h1>{title}</h1>
@@ -43,6 +43,7 @@ export default function CourseDisplay(props){
 </ul>
         </div>
         </div>
-        </>
+        
+    </section>
     );
 } 

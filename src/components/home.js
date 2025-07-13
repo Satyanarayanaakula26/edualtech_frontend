@@ -8,17 +8,19 @@ export default function Home(props){
       <section className="home-content">
       <div className="home-left">
         <h1> <span>Learn</span><span> Grow</span><span> Succeed</span></h1>
-        <p>
+        <div className='home-left-info'>
+          <p>
           Get 24/7 live mentorship,flexible alternative education,and seamless communication support all in one powerful platform.We are here to close learning gaps and empower every student to succeed,their way.
         </p>
+              <button className="btn btn-success">Get Started</button>
+        </div>
       </div>
       <div class="home-right">
-      <img className="home-image"/>
+      <img src='https://satyanarayanaakula26.github.io/edualtech_frontend/assets/learnerpic.png'className="home-image"/>
       </div>
-      <button className="btn btn-success">Get Started</button>
       <div class="highlight">
         <ul>
-          <li>
+          <li className='highlight-card'>
             <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/learnerpic.png" height="50px" width="50px"/>
             <div class="highlight-matter">
             <h5>100+</h5>
@@ -26,7 +28,7 @@ export default function Home(props){
             <p>Who joined and finding ways to chase their dreams</p>
             </div>
           </li>
-          <li>
+          <li className='highlight-card'>
             <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/coursespic.png" height="50px" width="50px"/>
             <div class="highlight-matter">
             <h5>Versatile </h5>
@@ -34,7 +36,7 @@ export default function Home(props){
             <p>Variety of courses for every section of Learners</p>
             </div>
           </li>
-          <li>
+          <li className='highlight-card'>
             <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/educatorpic.png" height="50px" width="50px"/>
            <div class="highlight-matter">
             <h5>Skilled </h5>

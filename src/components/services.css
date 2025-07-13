@@ -44,3 +44,14 @@
     transform: scale(1.1);
   }
  }
+
+ @media (max-width: 768px) {
+      .services-list{
+        display: flex;
+        flex-direction: column;
+      }
+      .services-list li{
+        width:100%;
+      }
+
+ }

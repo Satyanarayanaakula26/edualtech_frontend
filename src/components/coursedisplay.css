@@ -1,3 +1,6 @@
+.course-display-card{
+    margin-top:125px;
+}
 .course-display{
     display: flex;
     justify-content: space-between;
@@ -30,4 +33,25 @@
 }
 .syllabus-intro:hover,.course-use:hover{
     transform:scale(1.02)
+}
+
+@media (max-width: 768px) {
+    .course-display{
+        display: flex;
+        flex-direction: column;
+    }
+    .course-info,.course-img{
+        width:100vw;
+        margin:5%;
+        justify-content: center;
+    }
+
+    .courseinfo-extra{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+    }
+    .syllabus-intro,.course-use{
+        margin:auto 5%;
+    }
 }

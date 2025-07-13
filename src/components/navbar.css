@@ -1,11 +1,11 @@
 
  .navbar{
   position:fixed;
-  width:100%;
+  width:100vw;
   top:0;
   left:0;
   z-index:9999;
-  padding:5px 10px;
+  padding:5px 2%;
   height: 100px;
   background-color:aliceblue;
   display:flex;
@@ -84,6 +84,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .nav-links {
     position: fixed; 
     top: 0;
@@ -108,5 +109,14 @@
     font-size:30px;
     cursor: pointer;
   }
+  .navbar{
+    padding-top:20px;
+  }
+  .navbar button{
+    width:75px;
+    height:30px;
+    padding-bottom:30px;
+  }
   
-}
+ }
+ 

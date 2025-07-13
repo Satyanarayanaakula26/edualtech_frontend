@@ -17,6 +17,11 @@
   padding-bottom: 5%;
 }
 
+.home-left-info {
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
 .highlight ul{
   padding:5%;
   display: flex;
@@ -27,4 +32,20 @@
   gap:10px;
   width:250px;
   list-style: none;
+}
+
+@media (max-width: 768px) {
+      .home-content{
+        display: flex;
+        flex-direction: column;
+      }
+      .home-content .home-left,.home-content .home-left{
+        width:100%;
+      }
+      .highlight ul{
+        display:flex;
+        flex-wrap: wrap;
+        gap:50px;
+      }
+      
 }

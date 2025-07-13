@@ -10,7 +10,7 @@ import './components/courses.css';
 import './components/signin.css';
 import './components/topcourses.css'
 import './components/profile.css';
-import './components/coursedis.css';
+import './components/coursedisplay.css';
 import './components/team.css';
 import './components/contact.css';
 import './components/cart.css';

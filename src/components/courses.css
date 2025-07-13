@@ -22,6 +22,9 @@ background: linear-gradient(135deg, #F9FAFB 0%, #defce1 100%);
   margin: 2rem auto;
   transition:transform 0.2s ease,box_shadow 0.2s ease;
 }
+.edcourse,.nonedcourse{
+      margin-top:125px;
+    }
 .edcourse-intro h1,.edcourse-intro p,.nonedcourse-intro h1,.nonedcourse-intro p{
   margin:25px 0px;
   text-align: center;
@@ -97,4 +100,15 @@ background: linear-gradient(135deg, #F9FAFB 0%, #defce1 100%);
 
 .edcourse h1,.nonedcourse h1{
   margin:5% 2%;
+}
+
+@media (max-width: 768px) {
+    .course-types{
+      display: flex;
+      flex-direction: column;
+      gap:40px;
+    }
+    .edcourse-list,.nonedcourse-list{
+      justify-content: center;
+    }
 }
