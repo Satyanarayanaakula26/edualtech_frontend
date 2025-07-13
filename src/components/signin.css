@@ -1,5 +1,8 @@
 
  /* sign in and signup */
+ .sign_in-section{
+  margin-top:125px;
+ }
 .sign_in{
   display: flex;
   flex-direction: column;
@@ -51,3 +54,16 @@
   gap:10px;
   align-items: center;
 } */
+
+@media (max-width: 768px) {
+    .signin_info img{
+      display: none;
+    }
+    .sign_in{
+      width:75%;
+      margin:10%;
+    }
+    .sign_in_form button{
+      margin-left:35%;
+    }
+}

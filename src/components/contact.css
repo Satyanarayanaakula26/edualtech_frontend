@@ -1,3 +1,4 @@
+
 .contact-info-take{
     margin:5%;
 }
@@ -38,4 +39,13 @@ input:hover,textarea:hover{
 }
 .bi-linkedin{
     color:blue;
+}
+
+@media (max-width: 768px) {
+    .contact-form{
+        margin:10%;
+    }
+    .contact-form textarea{
+        width:100%;
+    }
 }

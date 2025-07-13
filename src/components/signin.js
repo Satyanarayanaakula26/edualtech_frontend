@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 
 export default function Signin(){
     return(
-        <section className="sign_in">
+        <section className='sign_in-section'>
+        <div className="sign_in">
             <h1>Sign In</h1>
             <div className="signin_info">
                 <img src="https://satyanarayanaakula26.github.io/edualtech_frontend/assets/login-image.jpg" alt="sign-in" width ="300px" height="300px"/>
@@ -13,6 +14,7 @@ export default function Signin(){
                 <a  className="forg_pass" href="/signin">forgot password?</a>
             </form>
             </div>
-        </section>
+        </div>
+        </section>
     );
 }
