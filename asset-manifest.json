@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/edualtech_frontend/static/css/main.a91df95b.css",
-    "main.js": "/edualtech_frontend/static/js/main.4e30704e.js",
+    "main.css": "/edualtech_frontend/static/css/main.d74bdba6.css",
+    "main.js": "/edualtech_frontend/static/js/main.c741feff.js",
     "static/js/453.3494e4ec.chunk.js": "/edualtech_frontend/static/js/453.3494e4ec.chunk.js",
     "static/media/bootstrap-icons.woff?": "/edualtech_frontend/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/edualtech_frontend/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/edualtech_frontend/index.html",
-    "main.a91df95b.css.map": "/edualtech_frontend/static/css/main.a91df95b.css.map",
-    "main.4e30704e.js.map": "/edualtech_frontend/static/js/main.4e30704e.js.map",
+    "main.d74bdba6.css.map": "/edualtech_frontend/static/css/main.d74bdba6.css.map",
+    "main.c741feff.js.map": "/edualtech_frontend/static/js/main.c741feff.js.map",
     "453.3494e4ec.chunk.js.map": "/edualtech_frontend/static/js/453.3494e4ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91df95b.css",
-    "static/js/main.4e30704e.js"
+    "static/css/main.d74bdba6.css",
+    "static/js/main.c741feff.js"
   ]
 }
